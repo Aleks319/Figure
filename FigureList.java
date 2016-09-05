@@ -5,10 +5,6 @@ import Lesson2.Figure.Figure;
 import Lesson2.Figure.Rectangle;
 import Lesson2.Figure.Triangle;
 
-/**
- * Created by Sasha on 03.09.2016.
- */
-
 /*
 Построить иерархию классов «Фигуры» с учетом знаний о
 полиморфизме. У каждого класса фигуры должен быть
@@ -31,5 +27,4 @@ public class FigureList {
     public static String typeFigure(Figure f) {
         return (f instanceof Rectangle) ? "Rectangle" : ((f instanceof Triangle) ? "Triangle" : "Circle");
     }
-
 }
